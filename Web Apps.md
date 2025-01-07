@@ -42,3 +42,4 @@
 | OWASP ZAP | Automated scanning for web vulnerabilities. | `zap-baseline.py -t <url>` | Useful for identifying common vulnerabilities quickly. |
 | Burp Suite | Manual and automated testing for web vulnerabilities. | Use Burp Intruder and Repeater for payload testing. | Ensure the application proxy is configured correctly. |
 | Nikto | Scan web servers for known vulnerabilities. | `nikto -h <url>` | Useful for detecting outdated server software and misconfigurations. |
+ 
