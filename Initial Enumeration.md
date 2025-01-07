@@ -29,3 +29,4 @@
 | Nikto | Scan web servers for known vulnerabilities. | `nikto -h http://<target>` | Combines well with directory enumeration. |
 | WhatWeb | Identify technologies and versions of web servers and applications. | `whatweb http://<target>` | Helps to identify possible version-specific vulnerabilities. |
 | SSL Scanning | Scan for SSL/TLS vulnerabilities. | `sslscan <target>` | Useful for identifying weak SSL/TLS configurations and cipher suites. |
+  
