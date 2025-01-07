@@ -21,3 +21,4 @@
 | Medusa | Fast login brute forcer for various protocols. | `medusa -h <target> -u <username> -P /path/to/password_list.txt -M ssh` | Replace `ssh` with desired module (e.g., `ftp`, `http`). |
 | Wordlists | Prebuilt collections of passwords for cracking. | Example files: `/usr/share/wordlists/rockyou.txt`, `/usr/share/wordlists/fasttrack.txt` | Rockyou is commonly used for dictionary attacks.  SecLists also has a lot of common passwords to use |
 |  |  |  |  |
+ 
